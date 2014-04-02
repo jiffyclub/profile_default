@@ -1,0 +1,18 @@
+/* make the selected cell more obvious */
+div.cell.selected {
+    /* Flat UI "Clouds" */
+    background: #ECF0F1;
+}
+
+/* make a cell in edit mode *really* obvious */
+div.cell.selected.edit_mode > div.input > div.input_prompt {
+    /* Flat UI "Clouds" */
+    color: #ECF0F1;
+    /* From http://wesandersonpalettes.tumblr.com/post/79956897654/coming-soon */
+    background: rgb(83, 144, 107);
+}
+
+/* I like Source Code Pro */
+div.CodeMirror {
+  font-family: "Source Code Pro", monospace;
+}
