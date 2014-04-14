@@ -16,3 +16,7 @@ div.cell.selected.edit_mode > div.input > div.input_prompt {
 div.CodeMirror {
   font-family: "Source Code Pro", monospace;
 }
+
+div#notebook {
+    font-family: "Open Sans", "Source Sans Pro", sans-serif;
+}
